@@ -76,7 +76,7 @@ function confirm_delete(id){
   if (result.value) {
     $.ajax({
                type: 'POST',
-                url: 'delete_local_admin',
+                url: 'delete_customer',
                 cache: false,
                 data: {
                       "_token" : $('meta[name=_token]').attr('content'),  
