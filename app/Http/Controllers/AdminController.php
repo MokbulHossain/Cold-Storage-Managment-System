@@ -23,7 +23,13 @@ class AdminController extends Controller
        $booking = Booking::count();
     	return view('Admin.home',compact('Service_provider','customer','post','booking'));
     }
-
+  protected function delete_customer(Request $request){
+  	 $local_admin = User::find($request->id);
+  	 if ($local_admin->delete()) {
+  	 	return '111';
+  	 }
+  	 return '000';
+  }
    protected function local_admin_list(){
    	$local_admins  = Service_provider::all();
    	return view('Admin.local_admin_list',compact('local_admins'));
