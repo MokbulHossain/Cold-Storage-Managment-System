@@ -23,7 +23,7 @@
         <nav class="navbar navbar-expand-md navbar-light navbar-laravel custom-navber">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}" style="color: white">
-                    Cold Storage
+                    <img src={{url('img/logo.png')}} style="height: 28px;">Cold Storage
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
