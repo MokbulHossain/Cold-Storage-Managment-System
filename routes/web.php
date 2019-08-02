@@ -69,4 +69,5 @@ Route::prefix('admin')->group(function () {
  Route::get('post_list','AdminController@post_list');
  Route::post('update_post','AdminController@update_post');
  Route::post('delete_post','AdminController@delete_post');
+    Route::post('delete_customer','AdminController@delete_customer');
 });
