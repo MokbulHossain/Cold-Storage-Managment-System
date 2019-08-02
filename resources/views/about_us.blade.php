@@ -48,12 +48,11 @@ Cool stores have been an essential part of the shipping industry since the late 
                     <img src="img/2.jpg" style="width:100%;height:250px;">
                 </div>
                 <div class="col-md-6">
-                    
-                   <p> S.M.Tanzilur Rahman</p>
+                   <p> Md.Ashadujjaman</p>
                    <p> Department of CSE</p>
                    <p> Daffodil International University</p>
-                   <p> 01919807215</p>
-                   <p> rahman15-6017@diu.edu.bd</p>
+                   <p> 01835612169</p>
+                   <p> ashadujjaman15-6005@diu.edu.bd</p>
                    
                 </div>
               </div>
